@@ -9,7 +9,7 @@ public class SimpleSpark {
 	public static void main(String[] args) {
 		
 		// NAVESTI TACNU PUTANJU DO FAJLA NOTES, ili nekog drugog tekstualnog fajla
-		String testFile = "D:/PDS-Spark/dataset/notes.txt";
+		String testFile = "D:/Football_Match_Analysis/dataset/notes.txt";
 		
 	    SparkSession spark = SparkSession.builder().appName("Simple Spark App").master("local[*]").getOrCreate();
 	    spark.sparkContext().setLogLevel("OFF"); 
